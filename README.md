@@ -147,3 +147,73 @@ Anotações Módulo 2 do curso da Alura
 
 
     App Service se caracteriza como PAAS
+
+
+
+    Windows Virtual Desktop 
+
+        Serve para servir as aplicaçoes do Office ou algum app sem precisar configurar uma maquina virtual, varios usuarios podem acessar ao mesmo tempo, permite multi sessão
+
+        Se caracteriza como PAAS
+
+
+
+    Azure functions:
+
+        São funções que você deixa pronto e são disparadas por eventos,, opr exemplo:
+            Uma função vai ser ativada se receber requisição de um URL especifica 
+
+            link: https://learn.microsoft.com/pt-br/azure/azure-functions/functions-triggers-bindings?tabs=isolated-process%2Cnode-v4%2Cpython-v2&pivots=programming-language-csharp
+
+
+        
+    Azure VNet:
+
+        O azure reserva cinco IPs dentro de cada sub rede.
+            Endereço de Rede
+            O gateway
+            2 ips reservado para mapear os Ips de DNS
+            Endereço de difusão da rede ou seja o de broadcasting 
+
+            
+        Existem restrições quanto ao uso de endereços IP dentro dessas sub-redes?
+        Sim. O Azure reserva os quatro primeiros e o último endereço, em um total de cinco endereços IP em cada sub-rede.
+
+        Por exemplo, o intervalo de endereços IP de 192.168.1.0/24 tem os seguintes endereços reservados:
+
+        192.168.1.0: endereço de rede.
+        192.168.1.1: reservado pelo Azure para o gateway padrão.
+        192.168.1.2, 192.168.1.3: reservados pelo Azure para mapear os endereços IP do DNS do Azure para o espaço da rede virtual.
+        192.168.1.255: endereço de transmissão de rede.
+
+        link: https://learn.microsoft.com/pt-br/azure/virtual-network/virtual-networks-faq
+
+
+    hostname -i = mostra o Ip da maquina virtual 
+
+    Load Balancer trabalha na camada 4
+
+    Application Gateway trabalha na camada 7
+
+
+    VPN Gateway e Express Route 
+
+        VPN Gateway permite conectar a sua rede local com a vnet da nuvem 
+
+        Tambem permite conectar duas redes Vnet da Azure independente da regiao 
+
+        Express Route é você contratar um link dedicado com algum parceiro da nuvem e assim não vai trafegar pela internet 
+
+
+    Azure CDN = Azure Content Delivery network
+
+        Deixa um cache de dados nos servidores, assim fica mais rapido de obter a informação.
+
+        Exemplo: Você precisa acessar uma informaçao que so tem nos EUA, o CDN deixa informaçoes em cache nos servidores do Brasil assim fica mais rapido de obter as informaçoes
+
+
+Anotações do curso 3 da Azure
+
+
+
+    
