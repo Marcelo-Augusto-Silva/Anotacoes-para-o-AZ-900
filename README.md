@@ -214,6 +214,185 @@ Anotações Módulo 2 do curso da Alura
 
 Anotações do curso 3 da Azure
 
+    Storage
+
+        Serve para armazenar os arquivos 
+
+        Blob = É armazenado os dados em um container 
+
+            O Blob Storage é usado para armazenar grandes volumes de dados não estruturados, como arquivos, imagens, vídeos, backups e logs.
+            Os dados são organizados em containers, que são como pastas dentro de uma conta de armazenamento.
+            Ideal para aplicações na nuvem e cenários onde você precisa de acesso rápido ou escalabilidade para armazenar e recuperar dados.
+
+
+        Disk = Anexa um disco virtual 
+
+            O Disk Storage é utilizado para anexar discos virtuais a máquinas virtuais (VMs).
+            sses discos funcionam como HDDs (discos rígidos) ou SSDs (discos de estado sólido), fornecendo armazenamento persistente e de alto desempenho.
+
+
+        File = É um file server, tipo um FTP
+
+            O File Storage é um serviço de compartilhamento de arquivos, similar a um servidor de arquivos tradicional (como FTP ou SMB).
+            Oferece suporte ao protocolo SMB (Server Message Block) e pode ser montado em máquinas Windows, Linux ou acessado via API.
+
+
+        Archive = Classe de armazenamento, para longos periodos 
+
+            O Archive Storage é uma classe de armazenamento projetada para dados raramente acessados, com foco em custo extremamente baixo.
+            Ideal para armazenar dados que precisam ser mantidos por longos períodos, mas não exigem acesso frequente.
+
+
+
+        
+        redundância Storage
+
+            LRS = Local redundância
+
+            ZRS = redundância por Zona
+
+            GRS = Redundancia por Geografia
+
+            ZRS = Zona Redundancia Geografica
+
+            link: https://learn.microsoft.com/pt-br/azure/storage/common/storage-redundancy#zone-redundant-storage
+
+
+            - Zona Redundancia Geografica (Dezesseis Noves)
+                - Redundancia por Geografia ( Dezesseis Noves)
+                    - Redundancia por Zona (Doze Noves)
+                        -  Redundancia local (Onze Noves)
+
+
+        Azure file
+
+            Serve para compartilha arquivos e pastas, suporta dois protocolos, SMB e NFS 
+
+
+            Voce cria um storage account e dentro do storage account voce cria um file share, depois é só conectar ele na vm 
+
+        Azure Managed Disk:
+
+            Funciona como um HD ou SSD.
+
+
+        lsblk = O comando lsblk no Linux exibe informações detalhadas sobre os dispositivos de blocos conectados ao sistema, como discos rígidos, SSDs, pendrives, e suas partições. 
+
+
+        fdisk = O comando fdisk no Linux é uma ferramenta de linha de comando usada para gerenciar tabelas de partição em dispositivos de armazenamento, como discos rígidos, SSDs e pendrives. Ele permite criar, deletar, redimensionar e manipular partições nos discos.
+
+        Quando você anexa um disco em uma VM, para excluir voce precisa desanexar o disco 
+
+    
+    Database
+    
+        Comos DB é um Banco de dados NoSQL 
+
+            É Multi-region 
+            É caracterizado como PAAS  
+            trabalha com varias APIs 
+
+            Você consegue replicar os dados do banco de dados em outras regioes 
+
+        
+        PostgreeSQL:
+
+            Tem diferentes tipos de Deploy
+
+            Single Server
+            Flexible Server 
+            Hyperscale 
 
 
     
+    DMS = Database Migration Services 
+
+
+        Ferramenta que ajuda você a migrar os bancos de dados do On-premisse para a nuvem 
+
+    DMA = Data Migration Assistent
+
+        Ferramenta que ajuda você a migrar do on-premisses para a nuvem 
+
+
+
+    IOT Hub :
+
+        É um gerenciador de servicos de IOT 
+
+
+
+Anotaçoes do curso 4 
+
+
+    Defense in Depth = Defesa em profundidade 
+
+
+
+    NSG = network security group, grupo de segurança de rede igual os grupos da aws
+
+    No nSG o numero da regra define a prioridade, por exemplo, se tem uma regra de ssh permitindo o ssh, porém ele esta com numero 300 e na regra 299 tem a regra bloqueando ssh, o ssh não será permitido 
+
+    
+    DDOs Basuc 
+
+        Já vem embutido na infraestrutura
+
+    DDOs Standard
+
+        Precisa contratar, voce pode monitorar 
+
+    link: https://learn.microsoft.com/pt-br/azure/ddos-protection/ddos-protection-overview 
+
+
+    Azure Security Center foi trocado para Microsoft Defender for Cloud é um centro de segurança onde voce pode gerar relatorios, indicar correções, parecido com um SOC 
+
+    Key vault:
+
+        O Azure Key Vault é um serviço gerenciado da Microsoft Azure que permite armazenar e gerenciar com segurança segredos, chaves de criptografia e certificados. Ele é essencial para proteger informações sensíveis, como senhas, tokens de acesso e chaves de API, evitando que fiquem expostas no código ou em arquivos de configuração.
+
+    
+    Azure AIP(Azure Information Protection), serve para classificar o tipo da informação 
+
+    Azure Sentinel = Ferramenta de SIEM, que fica monitorando a rede 
+
+    Maquina dedicada = Só você usa essa maquina 
+
+
+    Azure Active Directory(AAD)
+
+        É diferente do AD 
+        No AAD podemos aplicar autenticação MFA 
+
+        link: https://learn.microsoft.com/pt-br/azure/active-directory/fundamentals/compare
+
+    Single sign on (SSO):
+
+        Serviço que permite logar uma vez só na conta no dominio
+
+        O usuario do AAD se autentica em outros serviços atraves das APIs 
+
+
+    RBAC = Regras baseadas em acesso 
+
+    Igual as regras de acesso da AWS 
+
+
+    Azure monitor 
+
+        Monitora a sua infra, analisa os logs, ve quanto cada VM tem de memoria... igual o Cloud Watch da AWS 
+
+    Azure Health:
+
+        Serve para monitorar o que está acontecendo na nuvem da Azure, quais regioes estão em manutenção, qual irá entrar em manutenção etc...
+
+        É gratuito
+
+
+Anotaçoes 
+
+
+
+Azure Arc = serve para gerenciar ambientes com multi nuvem
+
+Quando voce aplica uma mudança para um grupo de recurso, todos os recursos sofrem alteração e os futuros tbm 
