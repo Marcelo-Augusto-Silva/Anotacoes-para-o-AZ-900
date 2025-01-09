@@ -1,1 +1,0 @@
-Azure Policy =  serviço no Azure que permite criar, atribuir e gerenciar políticas que controlam ou auditam recursos. Essas políticas impõem regras diferentes em todas as configurações de recursos para que as configurações permaneçam em conformidade com os padrões corporativos.

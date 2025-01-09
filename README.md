@@ -396,3 +396,6 @@ Anotaçoes
 Azure Arc = serve para gerenciar ambientes com multi nuvem
 
 Quando voce aplica uma mudança para um grupo de recurso, todos os recursos sofrem alteração e os futuros tbm 
+
+
+Azure Policy =  serviço no Azure que permite criar, atribuir e gerenciar políticas que controlam ou auditam recursos. Essas políticas impõem regras diferentes em todas as configurações de recursos para que as configurações permaneçam em conformidade com os padrões corporativos.

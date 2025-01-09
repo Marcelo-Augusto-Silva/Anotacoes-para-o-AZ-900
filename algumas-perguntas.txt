@@ -1,0 +1,208 @@
+# Quais dois atributos são características do modelo de implantação de nuvem privada? 
+
+**Resposta correta**  
+- O hardware deve ser comprado.  
+- A empresa tem controle total sobre recursos físicos e segurança.  
+
+---
+
+## [Opção de resposta] é o contêiner lógico usado para combinar e organizar recursos do Azure.
+
+**Sua resposta**  
+- Um grupo de recursos  
+
+---
+
+## [Opção de resposta] são datacenters fisicamente separados em uma região do Azure.
+
+**Sua resposta**  
+- Zonas de disponibilidade  
+
+---
+
+## Quais dois componentes são criados em uma assinatura do Azure?
+
+**Resposta correta**  
+- Grupos de recursos  
+- Recursos  
+
+---
+
+## Qual componente do Azure permite replicar recursos em uma área geográfica para garantir a continuidade dos negócios durante um desastre natural no local primário?
+
+**Resposta correta**  
+- Pares de região  
+
+---
+
+## Qual serviço de computação do Azure você pode usar para implantar e gerenciar um conjunto de máquinas virtuais idênticas?
+
+**Sua resposta**  
+- Conjuntos de dimensionamento de máquina virtual do Azure  
+
+---
+
+## O que você pode usar para executar código em um ambiente sem servidor?
+
+**Resposta correta**  
+- Azure Functions  
+
+---
+
+## Qual cenário é um caso de uso para um gateway de VPN?
+
+**Sua resposta**  
+- Conectar um datacenter local a uma rede virtual do Azure  
+
+---
+
+## O que você pode usar para conectar recursos do Azure, como bancos de dados SQL do Azure, a uma rede virtual do Azure?
+
+**Resposta correta**  
+- Pontos de extremidade de serviço  
+
+---
+
+## O que você pode usar para fornecer aos usuários Mac e Android acesso a um ambiente do Windows que executará aplicativos baseados no Windows?
+
+**Resposta correta**  
+- Área de Trabalho Virtual do Azure  
+
+---
+
+## Qual camada de armazenamento de Blobs do Azure armazena dados offline e oferece os menores custos de armazenamento e os maiores custos para acessar dados?
+
+**Resposta correta**  
+- Arquivos  
+
+---
+
+## Quais são os dois cenários de uso comuns para o Armazenamento de Blobs do Azure?
+
+**Resposta correta**  
+- Servir imagens ou documentos diretamente para um navegador  
+- Armazenar dados para backup e restauração  
+
+---
+
+## O que você pode usar para garantir que um usuário só possa acessar aplicativos de dispositivos compatíveis?
+
+**Resposta correta**  
+- Acesso Condicional  
+
+---
+
+## A qual objeto ou nível uma função de controle de acesso baseado em função (RBAC) do Azure é aplicada?
+
+**Resposta correta**  
+- Scope  
+
+---
+
+## O que você pode usar para garantir que os usuários se autentiquem usando autenticação multifator (MFA) ao tentarem entrar de um local específico?
+
+**Resposta correta**  
+- Acesso Condicional  
+
+---
+
+## Você precisa comparar os custos de execução de um aplicativo em um datacenter local com os custos de execução do aplicativo no Azure.
+
+**Resposta correta**  
+- Calculadora de Custo Total de Propriedade (TCO)  
+
+---
+
+## Você precisa associar os custos dos recursos a grupos diferentes dentro de uma organização sem alterar o local dos recursos. O que você deve usar?
+
+**Resposta correta**  
+- Marcas de recurso  
+
+---
+
+## O que você pode usar para garantir que os recursos novos e existentes do Azure permaneçam em conformidade com os padrões corporativos?
+
+**Resposta correta**  
+- Azure Policy  
+
+---
+
+## O que você pode usar para definir os recursos que deseja provisionar em um formato JSON declarativo?
+
+**Resposta correta**  
+- Modelos do Azure Resource Manager (ARM)  
+
+---
+
+## Quais duas ferramentas são acessíveis por meio do Azure Cloud Shell para gerenciar um ambiente do Azure?
+
+**Resposta correta**  
+- CLI do Azure  
+- PowerShell do Azure  
+
+---
+
+## Qual recurso no portal de governança do Microsoft Purview você deve usar para gerenciar o acesso a fontes de dados e conjuntos de dados?
+
+**Resposta correta**  
+- Política de dados  
+
+---
+
+## Uma empresa deseja experimentar alguns serviços que estão sendo oferecidos pelo Azure em Public Preview.
+
+**Resposta correta**  
+- Não  
+
+---
+
+## Uma empresa está planejando implantar recursos do Azure em um grupo de recursos (RESOURCE GROUPS). A empresa está planejando atribuir tags aos grupos de recursos (RESOURCE GROUPS).  
+
+**Os recursos no grupo de recursos também herdariam as mesmas tags?**  
+**Resposta correta**  
+- Não  
+
+---
+
+## Um engenheiro de TI precisa criar uma Máquina Virtual no Azure. Atualmente, o engenheiro de TI tem uma estação de trabalho baseada no sistema operacional Android.
+
+**Qual das opções a seguir o engenheiro de TI pode usar para criar a máquina virtual desejada no Azure?**  
+**Resposta correta**  
+- Azure Cloud Shell  
+
+---
+
+## Uma empresa precisa armazenar 2 TB de dados que não são usados frequentemente. Os dados precisam ser acessados via Power BI.
+
+**Resposta correta**  
+- Azure Data Lake  
+
+---
+
+## Sua empresa precisa implantar e gerenciar vários aplicativos Web do Azure usando o recurso de serviço de aplicativo do Azure.
+
+**Qual das URLs a seguir você usaria para gerenciar os Aplicativos Web do Azure?**  
+**Resposta correta**  
+- https://portal.azure.com  
+
+---
+
+## Uma empresa está planejando hospedar recursos no Azure. Eles querem garantir que o Azure esteja em conformidade com as regras e regulamentos da região para hospedar recursos.
+
+**Resposta correta**  
+- Central de Confiabilidade da Microsoft  
+
+---
+
+## Uma empresa deseja implementar uma solução de IoT usando o serviço disponível no Azure.
+
+### Requisito:  
+**"Fornecer comunicação bidirecional entre o aplicativo IoT e os dispositivos"**  
+**Resposta correta**  
+- IoT Hub  
+
+---
+
+## Elasticidade
+
+- **Definição**: Aumentar a potência da máquina sob demanda.  
