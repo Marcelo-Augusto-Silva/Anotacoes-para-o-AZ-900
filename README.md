@@ -2,7 +2,7 @@
  Anotaçoes para o AZ-900
 
 
-Vanatagens da Computação em nuvem:
+Vantagens da Computação em nuvem:
     - Alta disponibilidade 
     - Escalabilidade 
     - Agilidade
